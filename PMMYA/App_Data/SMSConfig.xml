@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SMSConfig>
+
+  <SMS Profile="welcomesms">
+    <server>164.100.129.141</server>
+    <username>MahaGovDIT-mudraadmin</username>
+    <password>Mahait@2018</password>
+    <smsservicetype>singlemsg</smsservicetype>
+    <senderid>MAHGOV</senderid>
+    <key>ebd23683-a55e-42c5-b425-13aa48dc2ea9</key>
+    <mobileno></mobileno>
+
+    <content>
+      <user>
+        <![CDATA[Welcome to maha-mudra Portal. We are thankful to you for visiting our Portal. If you are willing to avail loan under PMMY then please visit how to apply menu on the portal.
+Maha-MUDRA Team]]>
+      </user>
+    </content>
+
+  </SMS>
+
+  <SMS Profile="applicationsms">
+    <server>164.100.129.141</server>
+    <username>MahaGovDIT-mudraadmin</username>
+    <password>Mahait@2018</password>
+    <smsservicetype>singlemsg</smsservicetype>
+    <senderid>MAHGOV</senderid>
+    <key>ebd23683-a55e-42c5-b425-13aa48dc2ea9</key>
+
+    <content>
+      <user>
+        <![CDATA[Dear Applicant,Your loan request under PMMY is registered successfully on maha-mudra portal with registration ID.#ApplicationID.
+Maha-mudra team]]>
+      </user>
+    </content>
+
+  </SMS>
+
+</SMSConfig>

@@ -1,0 +1,703 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="App_Error_Head" xml:space="preserve">
+    <value>Server Error!</value>
+    <comment>App_Error.aspx</comment>
+  </data>
+  <data name="App_Error_ReportUs" xml:space="preserve">
+    <value>Report To Us</value>
+    <comment>App_Error.aspx</comment>
+  </data>
+  <data name="App_Error_Text" xml:space="preserve">
+    <value>The server encountered a temporary error and could not complete your request. &lt;br/&gt; Please try back in few minutes. &lt;br/&gt; &lt;br/&gt; &lt;br/&gt; &lt;br/&gt; If you still receive this error, please report to the system administrator.</value>
+    <comment>App_Error.aspx</comment>
+  </data>
+  <data name="btnABlack" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="btnABlackToolTip" xml:space="preserve">
+    <value>High Contrast</value>
+  </data>
+  <data name="btnAWhite" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="btnAWhiteToolTip" xml:space="preserve">
+    <value>Low Contrast</value>
+  </data>
+  <data name="btnContactUs" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="btnHome" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="btnlogin" xml:space="preserve">
+    <value>LogIn</value>
+  </data>
+  <data name="btn_Language" xml:space="preserve">
+    <value>English</value>
+    <comment>SetCulture.ascx</comment>
+  </data>
+  <data name="btn_Large" xml:space="preserve">
+    <value>A+</value>
+  </data>
+  <data name="btn_Larger" xml:space="preserve">
+    <value>A+</value>
+  </data>
+  <data name="btn_LargerToolTip" xml:space="preserve">
+    <value>Set to Largest Font</value>
+  </data>
+  <data name="btn_LargeToolTip" xml:space="preserve">
+    <value>Set to Larger Font</value>
+  </data>
+  <data name="btn_Medium" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="btn_MediumToolTip" xml:space="preserve">
+    <value>Set to Medium Font</value>
+  </data>
+  <data name="btn_Small" xml:space="preserve">
+    <value>A-</value>
+  </data>
+  <data name="btn_Smallest" xml:space="preserve">
+    <value>A-</value>
+  </data>
+  <data name="btn_SmallestToolTip" xml:space="preserve">
+    <value>Set to Smallest Font</value>
+  </data>
+  <data name="btn_SmallToolTip" xml:space="preserve">
+    <value>Set to Smaller Font</value>
+  </data>
+  <data name="CityAurangabad" xml:space="preserve">
+    <value>Aurangabad , IN</value>
+  </data>
+  <data name="CityMecca" xml:space="preserve">
+    <value>Mecca, SA</value>
+  </data>
+  <data name="CityMedina" xml:space="preserve">
+    <value>Medina, SA</value>
+  </data>
+  <data name="CityMumbai" xml:space="preserve">
+    <value>Mumbai, IN</value>
+  </data>
+  <data name="CityNagpur" xml:space="preserve">
+    <value>Nagpur, IN</value>
+  </data>
+  <data name="heading" xml:space="preserve">
+    <value>Key Person</value>
+    <comment>KeyPerson.ascx</comment>
+  </data>
+  <data name="HeadLoginStatus" xml:space="preserve">
+    <value>Log Out</value>
+  </data>
+  <data name="HomepagePath" xml:space="preserve">
+    <value>1001/Home'&gt;Home</value>
+  </data>
+  <data name="HyperLink1" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="imgMahaIT_alt" xml:space="preserve">
+    <value>Maharashtra Information Technology Corporation Limited.</value>
+  </data>
+  <data name="lblAlbum" xml:space="preserve">
+    <value>Photo Gallery</value>
+  </data>
+  <data name="lbldepName" xml:space="preserve">
+    <value>Maharashtra State Pradhan Mantri Mudra Yojana , Government of Maharashtra</value>
+  </data>
+  <data name="lblKeywordsearch" xml:space="preserve">
+    <value>Keyword Search</value>
+    <comment>NewsMore.aspx</comment>
+  </data>
+  <data name="lblNews" xml:space="preserve">
+    <value>Latest News</value>
+    <comment>NewsControl.ascx</comment>
+  </data>
+  <data name="lblNewsMore" xml:space="preserve">
+    <value>&lt;a href='~/Site/Home/NewsMore.aspx'&gt;Read More&lt;/a&gt;</value>
+  </data>
+  <data name="lblNewUserRegister" xml:space="preserve">
+    <value>Click here for new user registration</value>
+  </data>
+  <data name="lblReviewDate" xml:space="preserve">
+    <value>Last Reviewed:</value>
+  </data>
+  <data name="lblSearchBTN" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="lblSearchword" xml:space="preserve">
+    <value>You are searching for this word :</value>
+  </data>
+  <data name="lblsitemap" xml:space="preserve">
+    <value>Site Map</value>
+    <comment>SiteMap.ascx</comment>
+  </data>
+  <data name="lblViewPartnersHeading" xml:space="preserve">
+    <value>Search Site</value>
+  </data>
+  <data name="lbl_copyright" xml:space="preserve">
+    <value>© This is the official website of Planning Department, Government of Maharashtra. All Rights Reserved.</value>
+  </data>
+  <data name="lbl_headTitle" xml:space="preserve">
+    <value>Pradhan Mantri Mudra Yojana &lt;br/&gt;&lt;span&gt;Government of Maharashtra&lt;/span&gt;</value>
+  </data>
+  <data name="lbl_skipToContent" xml:space="preserve">
+    <value>Skip to Content</value>
+  </data>
+  <data name="lbl_skipToNav" xml:space="preserve">
+    <value>Skip to Navigation</value>
+  </data>
+  <data name="NationalEmblem_alt" xml:space="preserve">
+    <value>Government of India</value>
+  </data>
+  <data name="searchTxtBox" xml:space="preserve">
+    <value>Search here</value>
+    <comment>HeaderMain.ascx</comment>
+  </data>
+  <data name="Search_btn" xml:space="preserve">
+    <value>Search</value>
+    <comment>FormHeader.ascx</comment>
+  </data>
+  <data name="SitemapMsg" xml:space="preserve">
+    <value>You are here :</value>
+  </data>
+  <data name="lblStartDate" xml:space="preserve">
+    <value>Website Start Date :</value>
+  </data>
+  <data name="lblTodaysVisitor" xml:space="preserve">
+    <value>Today's Count:</value>
+  </data>
+  <data name="lblTotalVisitor" xml:space="preserve">
+    <value>Total Visitors :</value>
+  </data>
+  <data name="lblGallery" xml:space="preserve">
+    <value>Gallery</value>
+  </data>
+  <data name="lblMotivational" xml:space="preserve">
+    <value>Motivational</value>
+  </data>
+  <data name="lblPhoto" xml:space="preserve">
+    <value>Photos</value>
+  </data>
+  <data name="lblSuccessStories" xml:space="preserve">
+    <value>Success Stories</value>
+  </data>
+  <data name="WelcomeMsg" xml:space="preserve">
+    <value>Thank you for visiting Pradhan Mantri Mudra Yojana Maharashtra State Website.</value>
+  </data>
+  <data name="lblContact" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="lblfinancer" xml:space="preserve">
+    <value>Search your Financer</value>
+  </data>
+  <data name="lblDevelopedby" xml:space="preserve">
+    <value>© This is the official website of planning department. All rights reserved | Developed by</value>
+  </data>
+  <data name="lblKishor" xml:space="preserve">
+    <value>KISHOR</value>
+  </data>
+  <data name="lblShisu" xml:space="preserve">
+    <value>SHISHU</value>
+  </data>
+  <data name="lblTarun" xml:space="preserve">
+    <value>TARUN</value>
+  </data>
+  <data name="btnSubmit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Error10DigitVoterAddress" xml:space="preserve">
+    <value>Please Enter 10 Digit Voting Card for Address Proof.</value>
+  </data>
+  <data name="Error10DigitVoterID" xml:space="preserve">
+    <value>Please Enter 10 Digit Voting Card  for identity Proof.</value>
+  </data>
+  <data name="Error16DigitDLAddress" xml:space="preserve">
+    <value> Please Enter 16 Digit Driving Licence Number for Address Proof.</value>
+  </data>
+  <data name="Error16DigitDLID" xml:space="preserve">
+    <value>Please Enter 16 Digit Driving Licence Number for ID Proof.</value>
+  </data>
+  <data name="ErrorAadhar12digitAdd" xml:space="preserve">
+    <value>Please Enter 12 Digit Aadhar Number for Address Proof.</value>
+  </data>
+  <data name="ErrorAadhar12digitID" xml:space="preserve">
+    <value>Please Enter 12 Digit Aadhar Number for identity proof.</value>
+  </data>
+  <data name="ErrorAadharNoSame" xml:space="preserve">
+    <value>Aadhar Number for Address Proof and Identity Proof must be same.</value>
+  </data>
+  <data name="ErrorAtleastAddressProof" xml:space="preserve">
+    <value>Please Enter Atleast one Address Proof.</value>
+  </data>
+  <data name="ErrorAtleastIDPrrof" xml:space="preserve">
+    <value>Please Enter Atleast one ID Proof.</value>
+  </data>
+  <data name="ErrorddlBankName" xml:space="preserve">
+    <value>Please Select Bank Name.</value>
+  </data>
+  <data name="ErrorddlBranchname" xml:space="preserve">
+    <value>Please Select Branch Name.</value>
+  </data>
+  <data name="ErrorddlBusinessAddType" xml:space="preserve">
+    <value>Please Select Business Address Type.</value>
+  </data>
+  <data name="ErrorddlConstitution" xml:space="preserve">
+    <value> Please Select Constitution.</value>
+  </data>
+  <data name="Errorddldistrict" xml:space="preserve">
+    <value>Please Select District.</value>
+  </data>
+  <data name="ErrorddlExistingAccType" xml:space="preserve">
+    <value>Please Select Account Type.</value>
+  </data>
+  <data name="ErrorddlGender" xml:space="preserve">
+    <value>Please Select Sex.</value>
+  </data>
+  <data name="ErrorddlLineofBusiness" xml:space="preserve">
+    <value>Please Select Line of Business Activity.</value>
+  </data>
+  <data name="ErrorddlLoanAccountType" xml:space="preserve">
+    <value>Please Select Loan Account Type.</value>
+  </data>
+  <data name="ErrorddlLoanType" xml:space="preserve">
+    <value>Please Select Mudra Loan Type.</value>
+  </data>
+  <data name="ErrorddlMinority" xml:space="preserve">
+    <value>Please Select Minority Category.</value>
+  </data>
+  <data name="ErrorddlQualification" xml:space="preserve">
+    <value>Please Select Education Qualification.</value>
+  </data>
+  <data name="Errorddlresidenttype" xml:space="preserve">
+    <value>Please Select Residential Address Type.</value>
+  </data>
+  <data name="ErrorddlSocialCategory" xml:space="preserve">
+    <value>Please Select Social Category.</value>
+  </data>
+  <data name="ErrorddlTaluka" xml:space="preserve">
+    <value>Please Select Taluka.</value>
+  </data>
+  <data name="ErrorDLNoSame" xml:space="preserve">
+    <value>Driving Licence Number for Address Proof and Identity Proof must be same.</value>
+  </data>
+  <data name="ErrorHeader" xml:space="preserve">
+    <value>Kindly enter data in below fields.</value>
+  </data>
+  <data name="ErrorMinorAge" xml:space="preserve">
+    <value>Please Applicant Age Should be more than 18 years.</value>
+  </data>
+  <data name="ErrorMoreAge" xml:space="preserve">
+    <value>Please Applicant Age Should be not more than 125 years.</value>
+  </data>
+  <data name="ErrorOtherSame" xml:space="preserve">
+    <value>ID and Address Proof must be same.</value>
+  </data>
+  <data name="ErrorOtherSame1" xml:space="preserve">
+    <value>Identity proof and Address Proof for other category must be same.</value>
+  </data>
+  <data name="ErrorTxtAccountNumber" xml:space="preserve">
+    <value>Please Enter Account Number.</value>
+  </data>
+  <data name="ErrorTxtAddProofAadharNo" xml:space="preserve">
+    <value>Please Enter Valid Aadhar Number for Address Proof.</value>
+  </data>
+  <data name="ErrorTxtAddproofDLN" xml:space="preserve">
+    <value>Please Enter Valid Driving Licence Number for Address Proof Number.</value>
+  </data>
+  <data name="ErrorTxtAddproofVoterNo" xml:space="preserve">
+    <value>Please Enter Valid Voting Card Number for Address Proof.</value>
+  </data>
+  <data name="ErrorTxtAge" xml:space="preserve">
+    <value>Please Enter Age.</value>
+  </data>
+  <data name="ErrorTxtApplicantName1" xml:space="preserve">
+    <value>Please Enter 1 Applicant Name.</value>
+  </data>
+  <data name="ErrorTxtBankAddress" xml:space="preserve">
+    <value>Please Enter Bank Address</value>
+  </data>
+  <data name="ErrorTxtBusinessAddress" xml:space="preserve">
+    <value>Please Enter Business Address.</value>
+  </data>
+  <data name="ErrorTxtCaptcha" xml:space="preserve">
+    <value>Please Enter Captcha.</value>
+  </data>
+  <data name="ErrorTxtDOB" xml:space="preserve">
+    <value>Please Enter Date of Birth.</value>
+  </data>
+  <data name="ErrorTxtEmail" xml:space="preserve">
+    <value>Please Enter Email.</value>
+  </data>
+  <data name="ErrorTxtExistingBankName" xml:space="preserve">
+    <value>Please Enter Name of Bank and Branch.</value>
+  </data>
+  <data name="ErrorTxtExistingLoanAmount" xml:space="preserve">
+    <value>Please Enter Amount of loan Taken.</value>
+  </data>
+  <data name="ErrorTxtFatherName" xml:space="preserve">
+    <value>Please Enter Father/Husband Name.</value>
+  </data>
+  <data name="ErrorTxtIDProofAadharNo" xml:space="preserve">
+    <value>Please Enter Valid Aadhar Number for identity proof.</value>
+  </data>
+  <data name="ErrorTxtIDproofDLN" xml:space="preserve">
+    <value>Please Enter Valid Driving Licence Number for ID Proof Number.</value>
+  </data>
+  <data name="ErrorTxtIDproofVoterNo" xml:space="preserve">
+    <value>Please Enter Valid Voting Card Number for Identity  Proof.</value>
+  </data>
+  <data name="ErrorTxtIFSC" xml:space="preserve">
+    <value>Please Enter IFSC Code.</value>
+  </data>
+  <data name="ErrorTxtLoanKishore" xml:space="preserve">
+    <value>Please Kishore type loan  Amount should be more than 50000  and less than 5 lakh.  </value>
+  </data>
+  <data name="ErrorTxtLoanShishu" xml:space="preserve">
+    <value>Please Shishu Loan type Amount should be less than or equal to 50000. </value>
+  </data>
+  <data name="ErrorTxtLoanTarun" xml:space="preserve">
+    <value>Please Tarun type loan  Amount should be more than 5 lakh and less than or equal to 10 lakh.</value>
+  </data>
+  <data name="ErrorTxtMobile" xml:space="preserve">
+    <value>Please Enter Mobile Number.</value>
+  </data>
+  <data name="ErrortxtNubmer" xml:space="preserve">
+    <value>Please Enter Loan Amount.</value>
+  </data>
+  <data name="ErrorTxtPeriod" xml:space="preserve">
+    <value>Please Enter Period.</value>
+  </data>
+  <data name="ErrorTxtResidentialAdd" xml:space="preserve">
+    <value>Please Enter Residential Address.</value>
+  </data>
+  <data name="ErrorTxtSalesExisting" xml:space="preserve">
+    <value>Please Enter Annual Sales for Existing Business.</value>
+  </data>
+  <data name="ErrorTxtSalesProposed" xml:space="preserve">
+    <value>Please Enter Annual Sales for Proposed Business.</value>
+  </data>
+  <data name="ErrorTxtTelephone" xml:space="preserve">
+    <value>Please Enter Valid Telephone Number.</value>
+  </data>
+  <data name="ErrorValidAccount" xml:space="preserve">
+    <value>Please Enter Valid Account Number.</value>
+  </data>
+  <data name="ErrorValidCaptcha" xml:space="preserve">
+    <value>Please Enter Valid Captcha.</value>
+  </data>
+  <data name="ErrorValidEmail" xml:space="preserve">
+    <value>Please Enter Valid Email Id.</value>
+  </data>
+  <data name="ErrorValidMobile" xml:space="preserve">
+    <value>Please Enter Valid 10 digit Mobile Numer. Mobile Number should be start with 7 or 8 or 9.</value>
+  </data>
+  <data name="ErrorVoterNoSame" xml:space="preserve">
+    <value>Voting Number for Address Proof and Identity Proof must be same.</value>
+  </data>
+  <data name="lblAccountLoanType" xml:space="preserve">
+    <value>Loan Account Type</value>
+  </data>
+  <data name="lblAccountNumber" xml:space="preserve">
+    <value>Account Number</value>
+  </data>
+  <data name="lblAddproof" xml:space="preserve">
+    <value>Address Proof</value>
+  </data>
+  <data name="lblAdharNo" xml:space="preserve">
+    <value>Aadhar No.</value>
+  </data>
+  <data name="lblAge" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="lblAmount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="lblAnyother" xml:space="preserve">
+    <value>Any Others</value>
+  </data>
+  <data name="lblApplicantName" xml:space="preserve">
+    <value>3. Applicant Details</value>
+  </data>
+  <data name="lblApplicationHeading" xml:space="preserve">
+    <value>1. Loan Details</value>
+  </data>
+  <data name="lblAppName1" xml:space="preserve">
+    <value>1.Applicant Name</value>
+  </data>
+  <data name="lblAppName2" xml:space="preserve">
+    <value>2.Applicant Name</value>
+  </data>
+  <data name="lblBankAdd" xml:space="preserve">
+    <value>Bank Address</value>
+  </data>
+  <data name="lblBankDetails" xml:space="preserve">
+    <value>2. Bank Details</value>
+  </data>
+  <data name="lblBankIFSC" xml:space="preserve">
+    <value>Bank IFSC Code</value>
+  </data>
+  <data name="lblBankName" xml:space="preserve">
+    <value>Bank Name</value>
+  </data>
+  <data name="lblBranch" xml:space="preserve">
+    <value>Branch Name</value>
+  </data>
+  <data name="lblBusiness" xml:space="preserve">
+    <value>5. Business Details</value>
+  </data>
+  <data name="lblBusinessActivity" xml:space="preserve">
+    <value>Name of Business Activity</value>
+  </data>
+  <data name="lblBusinessAddress" xml:space="preserve">
+    <value>Business Address</value>
+  </data>
+  <data name="lblBusinessAddType" xml:space="preserve">
+    <value>Address Type</value>
+  </data>
+  <data name="Lblcaptcha" xml:space="preserve">
+    <value>Captcha</value>
+  </data>
+  <data name="lblConstitution" xml:space="preserve">
+    <value>Constitution</value>
+  </data>
+  <data name="LblDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="lblDistrict" xml:space="preserve">
+    <value>District</value>
+  </data>
+  <data name="lblDLNo" xml:space="preserve">
+    <value>DL No</value>
+  </data>
+  <data name="lblDOB" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="lblEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="lblEmailId" xml:space="preserve">
+    <value>Email Id</value>
+  </data>
+  <data name="LblExistingAcc" xml:space="preserve">
+    <value>Detail of Existing Accounts ,if any</value>
+  </data>
+  <data name="lblExistingAccType" xml:space="preserve">
+    <value>Account Type</value>
+  </data>
+  <data name="LblExistingBank" xml:space="preserve">
+    <value>Name of Bank &amp; Branch</value>
+  </data>
+  <data name="LblExistingLoanAmount" xml:space="preserve">
+    <value>If Loan A/c, amount of loan taken</value>
+  </data>
+  <data name="lblExperience" xml:space="preserve">
+    <value>Experience, if any</value>
+  </data>
+  <data name="lblFather" xml:space="preserve">
+    <value>Father/Husband Name</value>
+  </data>
+  <data name="lblIDproof" xml:space="preserve">
+    <value>ID Proof</value>
+  </data>
+  <data name="lblKYC" xml:space="preserve">
+    <value>KYC Documents</value>
+  </data>
+  <data name="lblKycHeading" xml:space="preserve">
+    <value>4. KYC Documents</value>
+  </data>
+  <data name="lblLineofBusiness" xml:space="preserve">
+    <value>Line of Business Activity (Purpose)</value>
+  </data>
+  <data name="LblLoan" xml:space="preserve">
+    <value>6. Loan Details</value>
+  </data>
+  <data name="lblLoanType" xml:space="preserve">
+    <value>Mudra Loan Type</value>
+  </data>
+  <data name="lblminority" xml:space="preserve">
+    <value>If Minority</value>
+  </data>
+  <data name="lblMobile" xml:space="preserve">
+    <value>Mobile No</value>
+  </data>
+  <data name="lblMobileNumber" xml:space="preserve">
+    <value>Mobile Number</value>
+  </data>
+  <data name="lblName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lblperiod" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="lblQualification" xml:space="preserve">
+    <value>Education Qualification</value>
+  </data>
+  <data name="lblResidentialAddress" xml:space="preserve">
+    <value>Residential Address</value>
+  </data>
+  <data name="lblResidenttype" xml:space="preserve">
+    <value>Address Type</value>
+  </data>
+  <data name="lblSalesExisting" xml:space="preserve">
+    <value>Annual Sales for Existing (Rs. in Lakh)</value>
+  </data>
+  <data name="lblSalesProposed" xml:space="preserve">
+    <value>Annual Sales for Proposed (Rs. in Lakh)</value>
+  </data>
+  <data name="lblsex" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="lblSocialCategory" xml:space="preserve">
+    <value>Social Category</value>
+  </data>
+  <data name="lblTaluka" xml:space="preserve">
+    <value>Taluka</value>
+  </data>
+  <data name="lblTelephone" xml:space="preserve">
+    <value>Telephone No</value>
+  </data>
+  <data name="lblVoterId" xml:space="preserve">
+    <value>Voter ID No.</value>
+  </data>
+  <data name="lblcaptchaText" xml:space="preserve">
+    <value>7. Captcha</value>
+  </data>
+  <data name="lblNote" xml:space="preserve">
+    <value>Case Sensitive (e.g. A-a)</value>
+  </data>
+  <data name="LblDistrictContact" xml:space="preserve">
+    <value>District</value>
+  </data>
+  <data name="LblDponame" xml:space="preserve">
+    <value>DPO Name</value>
+  </data>
+  <data name="LblEmailIdContact" xml:space="preserve">
+    <value>Email ID</value>
+  </data>
+  <data name="LblOfficeAddress" xml:space="preserve">
+    <value>Office Address</value>
+  </data>
+  <data name="LblSrno" xml:space="preserve">
+    <value>SrNo</value>
+  </data>
+  <data name="LblTelNo" xml:space="preserve">
+    <value>Tel.No.</value>
+  </data>
+</root>

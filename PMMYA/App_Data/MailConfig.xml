@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MailConfig>
+
+  <Mail Profile="forgotpassword">
+    <host>smtp.gmail.com</host>
+    <port>587</port>
+    <from>rechargeme2016@gmail.com</from>
+    <pwd>Pass@123</pwd>
+    <subject>
+      Your New Password
+    </subject>
+    <body>
+      <user>
+        Dear #UserName,
+
+        Please find the new system generated password.
+
+        Password has been changed with : #TRNID
+
+        Please change the password at the earlisted on the portal.
+
+        Regards
+        Pradhan Mantri Mudra Yojana, Maharashtra
+
+        Note :	This is system generated email . Please do not respond to this email.
+      </user>
+    </body>
+  </Mail>
+  
+   <Mail Profile="welcome">
+    <host>smtp.gmail.com</host>
+    <port>587</port>
+    <from>rechargeme2016@gmail.com</from>
+    <pwd>Pass@123</pwd>
+    <subject>
+      Welcome to Mahamudra - Pradhanmantri Mudra Bank Yojana Portal
+    </subject>
+    <body>
+      <user>
+
+        <![CDATA[Dear Applicant,<br /><br /><br />
+
+
+         Welcome to "Mahamudra - Pradhanmantri Mudra Bank Yojana Portal".<br /><br />
+         
+         This Portal has been created for the purpose of bringing the interested peoples who are seeking loans under PMMYcloser to banks in the shortest possible time through mobile phone or computer. <br /><br />
+         
+         The Applicant who is willing to avail bank loan under Pradhanmantri Mudra bank Yojana for starting a new business or requires loan for his existing business can apply for the same through this portal in Online mode by which time and effort will be saved.<br /><br /> 
+         
+         This Portal is helpful for the citizen who are willing to avail loan under PMMY.<br /><br /><br />
+
+
+
+        Yours Sincerely,<br />
+
+        maha-mudra team<br /><br />
+
+
+        Note :	This is system generated email . Please do not respond to this email.]]>
+      </user>
+    </body>
+  </Mail>
+
+  <Mail Profile="pmmybank">
+    <host>smtp.gmail.com</host>
+    <port>587</port>
+    <from>rechargeme2016@gmail.com</from>
+    <pwd>Pass@123</pwd>
+    <subject>
+      #ApplicationID : Application form for Mudra #LoanType Loan
+    </subject>
+    <body>
+      <user>
+
+        <![CDATA[Respected Sir/Madam,<br /><br /><br /><br />
+
+
+        Applicant <b>#ApplicantName</b>, application ID: <b>#ApplicationID</b> have been applied for the <b>#LoanType</b> loan under PMMY.<br /><br />
+
+        The copy of application is attached herewith in pdf format.<br /><br />
+
+        You are requested to take further necessary action on the applicant's loan request and do the needful as per the norms,you are also requested to take the Sanction/Rejection decision in the prescribed time and report the application status to your District Planning Officer.
+        <br /><br /><br /><br />
+
+
+
+        Yours Sincerely,<br />
+
+        maha-mudra team<br /><br />
+
+
+        Note :	This is system generated email . Please do not respond to this email.]]>
+      </user>
+    </body>
+  </Mail>
+
+  <Mail Profile="pmmydpo">
+    <host>smtp.gmail.com</host>
+    <port>587</port>
+    <from>rechargeme2016@gmail.com</from>
+    <pwd>Pass@123</pwd>
+    <subject>
+      #ApplicationID : Application form for Mudra #LoanType Loan
+    </subject>
+    <body>
+      <user>
+
+        <![CDATA[Respected Sir/Madam,<br /><br /><br /><br />
+
+
+        Applicant <b>#ApplicantName</b>, application ID: <b>#ApplicationID</b> have been applied for the <b>#LoanType</b> loan under PMMY.<br /><br />
+
+        The Copy of application is attached herewith in pdf format.<br /><br />
+
+        The same application form is already sent to the concerned bank branch by E-Mail for further necessary action on the applicant's loan request and also requested the bank to do the needful as per the norms.<br /><br />
+
+        It is also requested to the bank to  take the Sanction/Rejection decision in the prescribed time and report the application status to your office.<br /><br />
+
+        You are herewith  requested to take necessary followup with the concern bank branch and update the Sanction/Rejection of the Loan Application
+        on maha-mudra portal.<br /><br /><br /><br />
+
+
+
+
+        Yours Sincerely,<br />
+
+        maha-mudra team<br /><br /><br /><br />
+
+
+        Note :	This is system generated email . Please do not respond to this email.]]>
+      </user>
+    </body>
+  </Mail>
+
+  <Mail Profile="pmmycustomer">
+    <host>smtp.gmail.com</host>
+    <port>587</port>
+    <from>rechargeme2016@gmail.com</from>
+    <pwd>Pass@123</pwd>
+    <subject>
+      #ApplicationID : Application form for Mudra #LoanType Loan
+    </subject>
+    <body>
+      <user>
+
+        <![CDATA[Dear Applicant,<br /><br /><br /><br />
+
+
+        Your loan request under PMMY is registered successfully on maha-mudra portal with registration ID. <b>#ApplicationID</b> on <b>#ApplicationDate.</b><br /><br />
+
+        The copy of Loan Application is attached herewith this mail.<br /><br />
+
+        You are now requested to take print of the online form submitted and submit the hardcopy of Loan Application to bank after duly filled all the Columns of the form and attaching all the requisite documents.<br /><br /><br />
+
+
+
+
+        Yours Sincerely<br /><br />
+
+        maha-mudra team<br /><br /><br /><br />
+
+
+        Note :	This is system generated email . Please do not respond to this email.]]>
+      </user>
+    </body>
+  </Mail>
+
+</MailConfig>

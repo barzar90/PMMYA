@@ -1,0 +1,29 @@
+#vlightbox1 {
+	width:100%;
+}
+#vlightbox1 .vlightbox1 {
+	display:-moz-inline-stack;
+	display:inline-block;	
+	position:relative;
+	margin:3px;
+	width:160px;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:center;
+	opacity:0.87;
+}
+#vlightbox1 .vlightbox1 a{
+	margin:0;
+}
+#vlightbox1 .vlightbox1:hover, #vlightbox1 .vlightbox1 a:hover{
+	text-decoration:underline;
+	opacity:1;
+}
+#vlightbox1 .vlightbox1 img{
+	display:block;
+	border:none;
+	margin:0;
+}
+#vlightbox1 .vlightbox1 div {display:none}

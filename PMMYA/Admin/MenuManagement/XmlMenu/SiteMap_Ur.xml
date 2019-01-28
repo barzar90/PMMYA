@@ -1,0 +1,77 @@
+<ul>
+  <li>
+    <a href="~/1001/Home">मुखपृष्ठ</a>
+  </li>
+  <li>
+    <a href="~/1026/Disclaimer-and-Policies">Disclaimer and Policies</a>
+  </li>
+  <li>
+    <a href="~/1027/Terms-and-Condition"> नियम व शर्तें</a>
+  </li>
+  <li>
+    <a href="#">हमारे बारे में</a>
+    <ul>
+      <li>
+        <a href="~/1009/Vision">ध्येय </a>
+      </li>
+      <li>
+        <a href="~/1010/Genesis-and-Role-of-Mudra">उत्पत्ति और मुद्रा के भूमिका</a>
+      </li>
+      <li>
+        <a href="~/1020/DLMYCC"> अशासकीय सदस्यांची यादी </a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="#">प्रस्ताव</a>
+    <ul>
+      <li>
+        <a href="~/1021/Offerings">प्रस्ताव</a>
+      </li>
+      <li>
+        <a href="~/1023/Search-your-Financer">अपनी बँक खोजें</a>
+      </li>
+      <li>
+        <a href="~/1024/Success-Stories">सफलता की कहानियां</a>
+      </li>
+      <li>
+        <a href="~/1025/Useful-Links">उपयोगी कड़ियाँ</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="~/1028/Help">मदद</a>
+  </li>
+  <li>
+    <a href="~/1029/Sitemap">साईटमॅप</a>
+  </li>
+  <li>
+    <a href="#"> गॅलरी</a>
+    <ul>
+      <li>
+        <a href="~/1011/Motivational">प्रेरक</a>
+      </li>
+      <li>
+        <a href="~/1012/Success-Stories-Video">सफलता की कहानियां</a>
+      </li>
+      <li>
+        <a href="~/1013/Photos">तस्वीरें</a>
+      </li>
+      <li>
+        <a href="~/1018/Video">व्हिडिओ</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="~/1007/Apply-Online"> ऑनलाइन अर्जी कीजिए</a>
+  </li>
+  <li>
+    <a href="~/1004/FAQ">सामान्य प्रश्न</a>
+  </li>
+  <li>
+    <a href="~/1008/Complaint">शिकायत</a>
+  </li>
+  <li>
+    <a href="~/1006/Contact-Us">संपर्कं</a>
+  </li>
+</ul>

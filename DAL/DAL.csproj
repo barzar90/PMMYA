@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C9DC2D1C-7EC0-48CF-8B9C-08F830E15FC2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAL</RootNamespace>
+    <AssemblyName>DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Helper">
+      <HintPath>..\Helper\bin\Debug\Helper.dll</HintPath>
+    </Reference>
+    <Reference Include="Schema">
+      <HintPath>..\Schema\bin\Debug\Schema.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlbumDAL.cs" />
+    <Compile Include="AppErrorDAL.cs" />
+    <Compile Include="ApplicationformDAL.cs" />
+    <Compile Include="AuditTrailDAL.cs" />
+    <Compile Include="BannerDAL.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="CMSDAL.cs" />
+    <Compile Include="ContactUsDAL.cs" />
+    <Compile Include="DAL_Errorlog.cs" />
+    <Compile Include="DL.cs" />
+    <Compile Include="DropdownBindDAL.cs" />
+    <Compile Include="EmailDAL.cs" />
+    <Compile Include="FeedbackDAL.cs" />
+    <Compile Include="FileHandlerDAL.cs" />
+    <Compile Include="GlobalDAL.cs" />
+    <Compile Include="LDMFunDAL.cs" />
+    <Compile Include="LoanApplicationFormDAL.cs" />
+    <Compile Include="LoginDAL.cs" />
+    <Compile Include="MenuContentDAL.cs" />
+    <Compile Include="MenuDAL.cs" />
+    <Compile Include="PlaceholderDAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchDAL.cs" />
+    <Compile Include="SecurityFunctionDAL.cs" />
+    <Compile Include="SMSDAL.cs" />
+    <Compile Include="UploadDocumentDAL.cs" />
+    <Compile Include="UploadEventsDL.cs" />
+    <Compile Include="UploadFileDL.cs" />
+    <Compile Include="UploadNewsDAL.cs" />
+    <Compile Include="UploadVideoDAL.cs" />
+    <Compile Include="UploadVideoDL.cs" />
+    <Compile Include="UserDAL.cs" />
+    <Compile Include="ViewPhotoAlbumDAL.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

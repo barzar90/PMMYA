@@ -1,0 +1,77 @@
+<ul>
+  <li>
+    <a href="~/1001/Home">मुख्य पृष्ठ</a>
+  </li>
+  <li>
+    <a href="~/1026/Disclaimer-and-Policies">धोरणे आणि अस्वीकार</a>
+  </li>
+  <li>
+    <a href="~/1027/Terms-and-Condition">अटी आणि शर्ती</a>
+  </li>
+  <li>
+    <a href="#">आमच्याविषयी </a>
+    <ul>
+      <li>
+        <a href="~/1009/Vision">ध्येय </a>
+      </li>
+      <li>
+        <a href="~/1010/Genesis-and-Role-of-Mudra">उत्पत्ति और मुद्रा के भूमिका</a>
+      </li>
+      <li>
+        <a href="~/1020/DLMYCC"> अशासकीय सदस्यांची यादी </a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="#">मुद्रातील योजना</a>
+    <ul>
+      <li>
+        <a href="~/1021/Offerings">मुद्रातील योजना</a>
+      </li>
+      <li>
+        <a href="~/1023/Search-your-Financer">आपली बँक शोधा</a>
+      </li>
+      <li>
+        <a href="~/1024/Success-Stories">यशोगाथा</a>
+      </li>
+      <li>
+        <a href="~/1025/Useful-Links">उपयुक्त दुवे</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="~/1028/Help">मदत</a>
+  </li>
+  <li>
+    <a href="~/1029/Sitemap">साईटमॅप</a>
+  </li>
+  <li>
+    <a href="#"> गॅलरी</a>
+    <ul>
+      <li>
+        <a href="~/1011/Motivational">प्रेरणादायी</a>
+      </li>
+      <li>
+        <a href="~/1012/Success-Stories-Video">यशोगाथा</a>
+      </li>
+      <li>
+        <a href="~/1013/Photos">छायाचित्र</a>
+      </li>
+      <li>
+        <a href="~/1018/Video">व्हिडिओ</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="~/1007/Apply-Online">अर्जाचे स्वरूप</a>
+  </li>
+  <li>
+    <a href="~/1004/FAQ">नेहमीचे प्रश्न</a>
+  </li>
+  <li>
+    <a href="~/1008/Complaint">तक्रारीचे स्वरूप</a>
+  </li>
+  <li>
+    <a href="~/1006/Contact-Us">संपर्क</a>
+  </li>
+</ul>

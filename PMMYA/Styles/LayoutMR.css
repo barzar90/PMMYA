@@ -1,0 +1,14 @@
+body { font-family: 'Sakal Marathi','Lohit Marathi', Mangal, 'Arial Unicode MS'; line-height: 18px;}
+
+.other_links li a, .other_links li a:visited {/*padding-top:2px;*/}
+.btnBlack{height:20px; width:20px;}
+.btnWhite{height:20px; width:20px;}
+.heading{margin-top:10px;line-height: 26px;}
+.content h1{line-height: 40px;margin:0; font-size:28px;}
+p{line-height: 22px}
+.breadcrumb {
+    float: left;
+    background: none !important;
+    margin: 0px 0px 8px 20px !important;
+    padding: 5px !important;
+}

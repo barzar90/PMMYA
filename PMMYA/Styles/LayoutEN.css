@@ -1,0 +1,10 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 18px;
+}
+.breadcrumb {
+    float: left;
+    background: none !important;
+    margin: 0px 0px 8px 20px !important;
+    padding: 5px !important;
+}

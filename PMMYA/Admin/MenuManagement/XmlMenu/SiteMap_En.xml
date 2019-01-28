@@ -1,0 +1,77 @@
+<ul>
+  <li>
+    <a href="~/1001/Home">Home</a>
+  </li>
+  <li>
+    <a href="~/1026/Disclaimer-and-Policies">Disclaimer and Policies</a>
+  </li>
+  <li>
+    <a href="~/1027/Terms-and-Condition">Terms and Condition</a>
+  </li>
+  <li>
+    <a href="#">About Us</a>
+    <ul>
+      <li>
+        <a href="~/1009/Vision">Vision</a>
+      </li>
+      <li>
+        <a href="~/1010/Genesis-and-Role-of-Mudra">Genesis and Role of Mudra</a>
+      </li>
+      <li>
+        <a href="~/1020/DLMYCC">DLMYCC</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="#">Offering</a>
+    <ul>
+      <li>
+        <a href="~/1021/Offerings">Offerings</a>
+      </li>
+      <li>
+        <a href="~/1023/Search-your-Financer">Search your Financer</a>
+      </li>
+      <li>
+        <a href="~/1024/Success-Stories">Success Stories</a>
+      </li>
+      <li>
+        <a href="~/1025/Useful-Links">Useful Links</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="~/1028/Help">Help</a>
+  </li>
+  <li>
+    <a href="~/1029/Sitemap">Sitemap</a>
+  </li>
+  <li>
+    <a href="#">Gallery</a>
+    <ul>
+      <li>
+        <a href="~/1011/Motivational">Motivational</a>
+      </li>
+      <li>
+        <a href="~/1012/Success-Stories-Video">Success Stories Video</a>
+      </li>
+      <li>
+        <a href="~/1013/Photos">Photos</a>
+      </li>
+      <li>
+        <a href="~/1018/Video">Video</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="~/1007/Apply-Online">Apply Online</a>
+  </li>
+  <li>
+    <a href="~/1004/FAQ">FAQ</a>
+  </li>
+  <li>
+    <a href="~/1008/Complaint">Complaint </a>
+  </li>
+  <li>
+    <a href="~/1006/Contact-Us">Contact Us</a>
+  </li>
+</ul>

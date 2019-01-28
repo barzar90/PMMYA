@@ -1,0 +1,68 @@
+<ul class="nav navbar-nav">
+  <li>
+    <a href="~/Site/Home/Index.aspx">मुखपृष्ठ</a>
+  </li>
+  <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">हमारे बारे में<span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+      <li>
+        <a href="~/1009/Vision,-Mission-and-Purpose">मुद्रा-परिदृष्टि, मुद्रा-ध्येय, और मुद्रा-उद्देश्य</a>
+      </li>
+      <li>
+        <a href="~/1010/Genesis-and-Role-of-Mudra">उत्पत्ति और मुद्रा के भूमिका</a>
+      </li>
+      <li>
+        <a href="~/1020/Committee"> समिती</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">प्रस्ताव<span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+      <li>
+        <a href="~/1021/Offerings">प्रस्ताव</a>
+      </li>
+      <li>
+        <a href="~/1023/Search-your-Financer">अपनी बँक खोजें</a>
+      </li>
+      <li>
+        <a href="~/1024/Success-Stories">सफलता की कहानियां</a>
+      </li>
+      <li>
+        <a href="~/1025/Useful-Links">उपयोगी कड़ियाँ</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#"> गॅलरी<span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+      <li>
+        <a href="~/1011/Motivational">प्रेरक</a>
+      </li>
+      <li>
+        <a href="~/1012/Success-Stories-Video">सफलता की कहानियां</a>
+      </li>
+      <li>
+        <a href="~/1013/Photos">तस्वीरें</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a target="_blank" title="External Website that opens in a new window" href="~/Site/Upload/Pdf/Maharashtra_Mudra.pdf">यशोमुद्रा</a>
+  </li>
+  <li>
+    <a href="~/1030/How-to-apply">अर्जी कैसे करें</a>
+  </li>
+  <li>
+    <a href="~/Site/Home/FrmPMMYLoanForm.aspx">अर्जी कीजिए</a>
+  </li>
+  <li>
+    <a href="~/1004/FAQ">सामान्य प्रश्न</a>
+  </li>
+  <li>
+    <a href="~/1008/Complaint">शिकायत</a>
+  </li>
+  <li>
+    <a href="~/1006/Contact-Us">संपर्कं</a>
+  </li>
+</ul>

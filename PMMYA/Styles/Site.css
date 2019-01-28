@@ -1,0 +1,280 @@
+﻿body {
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+.SectionRowHead
+{
+    font-weight:bolder;
+}
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em 0 0 3em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 2px 2px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+.new
+.inline label { width:80px; font-weight:bold; display:inline-block; float:left}
+.inline br { display:none;}
+.inline input[type="radio"] {float:left; margin-top:5px; width:15px; display:inline-block;}
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 300px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 100%;
+}
+
+.register p
+{
+     height:20px;background:#f7f7f7; padding-top:5px; width:845px;
+}
+
+.register label
+{ margin:0px 4px 0px 0px!important; width:200px; padding: 5px; background:#EFEFEF; }
+
+.fields
+{padding:5px; background:#EFEFEF;}
+
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: White;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+.loginDisplay a:visited
+{
+    color: white;
+}
+
+.loginDisplay a:hover
+{
+    color: white;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: left;
+    padding-right: 10px;
+}
+.CalenderE
+{
+    background-color:White;
+    }
+.PageTitle
+{margin:0 auto;
+    color: #E0F7FD;
+    display: block;
+    font-size: 18px;
+    font-weight:bold;
+    font-weight: bold;
+    line-height: 52px;
+    padding: 0 23px;
+    text-align: center;
+    width: 900px;}
+
+.SectionTable
+{
+    margin:0 auto; 
+    width:950px;
+    border-collapse: collapse !important; 
+    border-spacing: 0 !important;
+    padding-left:10px;
+    color:#012B3C;
+}
+
+div.SectionTitle{margin:10px 10px 0 10px;padding:4px 4px 4px 10px;width:940px;border:1px solid #E3E3E3;color:#286680;background-color:#F2F2F2;clear:both;display:block}
+/*#FormsPH_FormSections table{margin:0 auto; width:950px;border-collapse: collapse !important; border-spacing: 0 !important;padding-left:10px;color:#012B3C;}
+#FormsPH_FormSections table label{padding-bottom:3px;width:auto;display:block;}*/
+#FormsPH_FormSections br{display:none;}
+input[type="text"] {border:1px solid #C4C4C4;}
+.DivNew{float:right; width:auto;margin-right:10px;display:block;height:35px}
+.btnSection{margin:10px auto;width:950px; padding:10px;clear:both; display:block; }
+.lftBtn{float:left; width:49%}
+.rgtBtn{float:right; width:49%}
+.UploadWrap{margin:0 auto; width:158px; border:1px solid #c1c1c1;height:152px}
+.popupWrap{margin:5px auto; width:407px;height:280px; border:1px solid #CFCFCF; background-color:#F2F2F2;padding-bottom:10px}
+.brdbutton{border: 1px solid #C0C0C0;padding:5px; clear:both;margin:2px 3px;background-color: #F2F2F2;}
+.fieldWrap{margin:20px 20px auto;float:left; background-color:#A5A5A5;height:247px}
+.clear{clear:both}
+.MAHAITImg{margin: 5px 0 15px;width: 170px; border:1px solid #ccc;height:235px;}
+.wrapUpload{margin:15px auto; width:365px; height:220px}
+#FormsPH_Sec12_ctl08_daysTable{width:170px !important; margin:0 auto;padding:0;}
+.ajax__calendar_container TABLE{width:170px !important;}
+.ajax__calendar_container {background-color: #FFFFFF;border: 1px solid #646464 !important;color: #000000;}
+.ajax__calendar .ajax__calendar_hover .ajax__calendar_day {background-color: #EDF9FF;border-color: #DAF2FC;color: #0066CC;}
+.ajax__calendar .ajax__calendar_hover .ajax__calendar_day {
+    background-color: #EDF9FF !important;
+    border-color: #DAF2FC !important;
+    color: #0066CC !important;
+}
+.ajax__calendar .ajax__calendar_hover .ajax__calendar_month {
+    background-color: #EDF9FF !important;
+    border-color: #DAF2FC !important;
+    color: #0066CC !important;
+}
+.ajax__calendar .ajax__calendar_hover .ajax__calendar_year {
+    background-color: #EDF9FF !important;
+    border-color: #DAF2FC !important;
+    color: #0066CC !important;
+}
+.ajax__calendar .ajax__calendar_hover .ajax__calendar_title {
+    color: #0066CC !important;
+}
+.ajax__calendar .ajax__calendar_hover .ajax__calendar_today {
+    color: #0066CC !important;
+}
+.red
+{
+    color:Red;
+    font-weight:bold;
+}
+.white
+{
+    color:white;
+    font-weight:bold;
+}
+
+.SectionErrorRow
+{
+    color:Red;
+    font-weight:bold;
+}
+#MAHAITImg {border:1px solid #ccc;height:170px; width:150px}
+.MAHAITImg {border:1px solid #ccc;height:170px; width:150px;margin:0 auto;}
+.wrapImg{overflow:auto;display:block; text-align:center; padding:15px 0; color:#FEFEFE; font-weight:bold;text-shadow: -0.5px 2.2px #302929;z-index:200;position:relative; }
+.wrapBtns{overflow:auto;display:block; margin:0 0 10px; cursor:pointer; border:1px solid #ccc;box-shadow:2px 10px 15px #ECECEC inset;z-index:100;position:relative}
+.camImg{margin:0 5px;float:left;cursor:pointer;width:40px}
+.fileImg{margin:0 5px;float:right; cursor:pointer;width:40px}
+.SectionTable{margin:10px;border:1px solid #E3E3E3;color:#286680; clear:both;display:block;width:952px;padding: 4px 4px 4px 10px;margin-top:5px!important;}
+
+.RFS
+{
+margin:1px auto; 
+border: 1px solid #CFCFCF;
+padding-bottom:10px;
+border-radius: 3px;
+box-shadow:2px 10px 15px #ECECEC inset; 
+min-height:30px;
+}
+
+.RFSL
+{
+font-size: 11px;
+font-weight: bold; 
+color: #4F4F4F; 
+padding:2px 2px 2px 5px;
+display: block;
+text-align: left;
+margin-left: 15px;
+}
+.SectionGrid
+{    
+    border: 1px solid #E3E3E3;
+    clear: both;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px !important;
+    padding: 4px 4px 4px 10px;
+    width: 98.2%;
+    border-collapse: collapse !important;
+    border-spacing: 0 !important;
+}
+
+.SectionGrid tbody{width:100% !important;}
+.SectionGrid1 th
+{
+   
+    font-weight:bold;
+    color:#042F40;
+     width:1%;
+    border: 1px solid #999;
+}
+.SectionGrid td
+{   padding:2px;
+    color:#286680;
+    border: 1px solid #999;
+    width:1%;
+}
+
+.MAHAITGridColDisplayNone
+{
+display:none; 
+}
+
+.MAHAITGridColDisplay {
+    display: block;
+}
+
+.MAHAITTextLink:hover {
+text-decoration:underline;
+cursor:pointer;
+}

@@ -1,0 +1,691 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="App_Error_Head" xml:space="preserve">
+    <value>सर्व्हर दोष !</value>
+    <comment>App_Error.aspx</comment>
+  </data>
+  <data name="App_Error_ReportUs" xml:space="preserve">
+    <value>आम्हाला कळवा</value>
+  </data>
+  <data name="App_Error_Text" xml:space="preserve">
+    <value>सर्व्हरमध्ये तात्पुरता दोष उद्भवला आहे, त्यामुळे आपली विनंती पूर्ण होऊ शकत नाही. कृपया काही मिनिटांनंतर पुन्हा प्रयत्न करा. तुमच्यासमोर अजूनही हा दोष उद्भवत असल्यास कृपया सिस्टम अॅडमिनिस्ट्रेटरला त्याबाबत कळवा.</value>
+    <comment>App_Error.aspx</comment>
+  </data>
+  <data name="btnABlack" xml:space="preserve">
+    <value>अ</value>
+  </data>
+  <data name="btnABlackToolTip" xml:space="preserve">
+    <value>प्रखर दृश्य</value>
+  </data>
+  <data name="btnAWhite" xml:space="preserve">
+    <value>अ</value>
+  </data>
+  <data name="btnAWhiteToolTip" xml:space="preserve">
+    <value>सौम्य दृश्य</value>
+  </data>
+  <data name="btnContactUs" xml:space="preserve">
+    <value>संपर्क</value>
+  </data>
+  <data name="btnHome" xml:space="preserve">
+    <value>मुख्य पृष्ठ</value>
+  </data>
+  <data name="btnlogin" xml:space="preserve">
+    <value>लॉग इन</value>
+  </data>
+  <data name="btn_Language" xml:space="preserve">
+    <value>मराठी</value>
+    <comment>SetCulture.ascx</comment>
+  </data>
+  <data name="btn_Large" xml:space="preserve">
+    <value>अ+</value>
+  </data>
+  <data name="btn_Larger" xml:space="preserve">
+    <value>अ+</value>
+  </data>
+  <data name="btn_LargerToolTip" xml:space="preserve">
+    <value>अधिक मोठा फॉंट</value>
+  </data>
+  <data name="btn_LargeToolTip" xml:space="preserve">
+    <value>मोठा फॉंट</value>
+  </data>
+  <data name="btn_Medium" xml:space="preserve">
+    <value>अ</value>
+  </data>
+  <data name="btn_MediumToolTip" xml:space="preserve">
+    <value>मध्यम फॉंट</value>
+  </data>
+  <data name="btn_Small" xml:space="preserve">
+    <value>अ-</value>
+  </data>
+  <data name="btn_Smallest" xml:space="preserve">
+    <value>अ-</value>
+  </data>
+  <data name="btn_SmallestToolTip" xml:space="preserve">
+    <value>अधिक लहान फॉंट</value>
+  </data>
+  <data name="btn_SmallToolTip" xml:space="preserve">
+    <value>लहान फॉंट</value>
+  </data>
+  <data name="CityAurangabad" xml:space="preserve">
+    <value>औरंगाबाद,भारत</value>
+  </data>
+  <data name="CityMecca" xml:space="preserve">
+    <value>मक्का,सौदी</value>
+  </data>
+  <data name="CityMedina" xml:space="preserve">
+    <value>मदिना,सौदी</value>
+  </data>
+  <data name="CityMumbai" xml:space="preserve">
+    <value>मुंबई,भारत</value>
+  </data>
+  <data name="CityNagpur" xml:space="preserve">
+    <value>नागपूर,भारत</value>
+  </data>
+  <data name="heading" xml:space="preserve">
+    <value>मान्यवर</value>
+    <comment>KeyPerson.ascx</comment>
+  </data>
+  <data name="HeadLoginStatus" xml:space="preserve">
+    <value>लॉग आऊट</value>
+  </data>
+  <data name="HomepagePath" xml:space="preserve">
+    <value>1001/Home'&gt;मुख्य पृष्ठ</value>
+  </data>
+  <data name="HyperLink1" xml:space="preserve">
+    <value>पासवर्ड बदला</value>
+  </data>
+  <data name="imgMahaIT_alt" xml:space="preserve">
+    <value>महाराष्ट्र माहिती तंत्रज्ञान महामंडळ मर्यादित.</value>
+  </data>
+  <data name="lblAlbum" xml:space="preserve">
+    <value>छायाचित्र दालन</value>
+  </data>
+  <data name="lbldepName" xml:space="preserve">
+    <value>महाराष्ट्र राज्य प्रधान मंत्री मुद्रा योजना समिती, महाराष्ट्र शासन</value>
+  </data>
+  <data name="lblKeywordsearch" xml:space="preserve">
+    <value>शब्दशोध</value>
+    <comment>NewsMore.aspx</comment>
+  </data>
+  <data name="lblNews" xml:space="preserve">
+    <value>अद्ययावत बातम्या</value>
+    <comment>NewsControl.ascx</comment>
+  </data>
+  <data name="lblNewsMore" xml:space="preserve">
+    <value>&lt;a href='~/Site/Home/NewsMore.aspx'&gt;पुढे वाचा&lt;/a&gt;</value>
+  </data>
+  <data name="lblNewUserRegister" xml:space="preserve">
+    <value>नवीन वापरकर्ता नोंदणीसाठी येथे क्लिक करा</value>
+  </data>
+  <data name="lblReviewDate" xml:space="preserve">
+    <value>शेवटचे पुनरावलोकन:</value>
+  </data>
+  <data name="lblSearchBTN" xml:space="preserve">
+    <value>शोधा</value>
+  </data>
+  <data name="lblSearchword" xml:space="preserve">
+    <value>आपण हे शब्द शोधत आहात :</value>
+  </data>
+  <data name="lblsitemap" xml:space="preserve">
+    <value>साईटमॅप</value>
+    <comment>SiteMap.ascx</comment>
+  </data>
+  <data name="lblViewPartnersHeading" xml:space="preserve">
+    <value>साइट शोधा</value>
+  </data>
+  <data name="lbl_copyright" xml:space="preserve">
+    <value>© नियोजन विभाग यांचे हे अधिकृत संकेतस्थळ आहे. सर्व अधिकार सुरक्षित.</value>
+  </data>
+  <data name="lbl_headTitle" xml:space="preserve">
+    <value>महाराष्ट्र राज्य प्रधान मंत्री मुद्रा योजना समिती &lt;br/&gt;&lt;span&gt;महाराष्ट्र शासन&lt;/span&gt;</value>
+  </data>
+  <data name="lbl_skipToContent" xml:space="preserve">
+    <value>विषयाकडे जा</value>
+  </data>
+  <data name="lbl_skipToNav" xml:space="preserve">
+    <value>दिशादर्शकाकडे जा</value>
+  </data>
+  <data name="NationalEmblem_alt" xml:space="preserve">
+    <value>भारत सरकार</value>
+  </data>
+  <data name="searchTxtBox" xml:space="preserve">
+    <value>येथे शोधा</value>
+    <comment>HeaderMain.ascx</comment>
+  </data>
+  <data name="Search_btn" xml:space="preserve">
+    <value>शोधा</value>
+    <comment>FormHeader.ascx</comment>
+  </data>
+  <data name="SitemapMsg" xml:space="preserve">
+    <value>तुम्ही आता येथे आहात :</value>
+  </data>
+  <data name="lblStartDate" xml:space="preserve">
+    <value>वेबसाइट प्रारंभ तारीख:</value>
+  </data>
+  <data name="lblTodaysVisitor" xml:space="preserve">
+    <value>आजचे दर्शक:</value>
+  </data>
+  <data name="lblTotalVisitor" xml:space="preserve">
+    <value>एकूण दर्शक:</value>
+  </data>
+  <data name="lblGallery" xml:space="preserve">
+    <value>गॅलरी</value>
+  </data>
+  <data name="lblMotivational" xml:space="preserve">
+    <value>प्रेरणादायी</value>
+  </data>
+  <data name="lblPhoto" xml:space="preserve">
+    <value>छायाचित्र</value>
+  </data>
+  <data name="lblSuccessStories" xml:space="preserve">
+    <value>यशोगाथा</value>
+  </data>
+  <data name="WelcomeMsg" xml:space="preserve">
+    <value>महाराष्ट्र राज्य प्रधानमंत्री मुद्रा योजना या संकेतस्थळाला भेट दिल्याबद्दल धन्यवाद.</value>
+  </data>
+  <data name="lblContact" xml:space="preserve">
+    <value>संपर्क</value>
+  </data>
+  <data name="lblfinancer" xml:space="preserve">
+    <value>आपली बँक शोधा</value>
+  </data>
+  <data name="lblDevelopedby" xml:space="preserve">
+    <value>© नियोजन विभाग यांचे हे अधिकृत संकेतस्थळ आहे. सर्व अधिकार सुरक्षित | 
+द्वारा विकसित</value>
+  </data>
+  <data name="lblKishor" xml:space="preserve">
+    <value>किशोर</value>
+  </data>
+  <data name="lblShisu" xml:space="preserve">
+    <value>शिशु</value>
+  </data>
+  <data name="lblTarun" xml:space="preserve">
+    <value>तरुण</value>
+  </data>
+  <data name="btnSubmit" xml:space="preserve">
+    <value>जतन करा</value>
+  </data>
+  <data name="Error10DigitVoterAddress" xml:space="preserve">
+    <value>कृपया पत्त्याच्या पुराव्यासाठी १० अंकी मतदान ओळखपत्र क्रमांक प्रविष्ट करा.</value>
+  </data>
+  <data name="Error10DigitVoterID" xml:space="preserve">
+    <value>कृपया ओळख पुराव्यासाठी १० अंकी मतदान ओळखपत्र क्रमांक प्रविष्ट करा.</value>
+  </data>
+  <data name="Error16DigitDLAddress" xml:space="preserve">
+    <value>कृपया पत्त्याच्या पुराव्यासाठी 16 अंकी वाहतूक परवाना क्रमांक प्रविष्ट करा.</value>
+  </data>
+  <data name="Error16DigitDLID" xml:space="preserve">
+    <value>कृपया आयडी पुराव्यासाठी १६ अंकी वाहतूक परवाना क्रमांक प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorAadhar12digitAdd" xml:space="preserve">
+    <value>कृपया पत्त्याच्या पुराव्यासाठी 12 अंकी  आधार क्रमांक प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorAadhar12digitID" xml:space="preserve">
+    <value>कृपया ओळख पुराव्यासाठी १२ अंकी आधार क्रमांक प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorAadharNoSame" xml:space="preserve">
+    <value>पत्त्याचा पुराव्यासाठी  आणि ओळखीचा पुराव्यासाठी  प्रविष्ट केलेले आधार क्रमांक समान असणे आवश्यक आहे.</value>
+  </data>
+  <data name="ErrorAtleastAddressProof" xml:space="preserve">
+    <value>कृपया किमान एक पत्त्याचा पुरावा प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorAtleastIDPrrof" xml:space="preserve">
+    <value>कृपया किमान एक ओळखपत्र प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorddlBankName" xml:space="preserve">
+    <value>कृपया बँक नाव निवडा.</value>
+  </data>
+  <data name="ErrorddlBranchname" xml:space="preserve">
+    <value>कृपया शाखेचे नाव निवडा.</value>
+  </data>
+  <data name="ErrorddlBusinessAddType" xml:space="preserve">
+    <value>कृपया व्यवसाय पत्त्याचा प्रकार निवडा.</value>
+  </data>
+  <data name="ErrorddlConstitution" xml:space="preserve">
+    <value>कृपया संविधान निवडा.</value>
+  </data>
+  <data name="Errorddldistrict" xml:space="preserve">
+    <value>कृपया जिल्हा निवडा.</value>
+  </data>
+  <data name="ErrorddlExistingAccType" xml:space="preserve">
+    <value>कृपया खाते प्रकार निवडा.</value>
+  </data>
+  <data name="ErrorddlGender" xml:space="preserve">
+    <value>कृपया लिंग निवडा.</value>
+  </data>
+  <data name="ErrorddlLineofBusiness" xml:space="preserve">
+    <value>कृपया व्यवसायाच्या हेतूची निवड करा.</value>
+  </data>
+  <data name="ErrorddlLoanAccountType" xml:space="preserve">
+    <value>कृपया कर्ज खाते प्रकार निवडा.</value>
+  </data>
+  <data name="ErrorddlLoanType" xml:space="preserve">
+    <value>कृपया मुद्रा कर्ज प्रकार निवडा.</value>
+  </data>
+  <data name="ErrorddlMinority" xml:space="preserve">
+    <value>कृपया अल्पसंख्याक प्रवर्ग निवडा.</value>
+  </data>
+  <data name="ErrorddlQualification" xml:space="preserve">
+    <value>कृपया शैक्षणिक पात्रता निवडा.</value>
+  </data>
+  <data name="Errorddlresidenttype" xml:space="preserve">
+    <value>कृपया निवासी पत्त्याचा  प्रकार निवडा.</value>
+  </data>
+  <data name="ErrorddlSocialCategory" xml:space="preserve">
+    <value>कृपया सामाजिक प्रवर्ग निवडा.</value>
+  </data>
+  <data name="ErrorddlTaluka" xml:space="preserve">
+    <value>कृपया तालुका निवडा.</value>
+  </data>
+  <data name="ErrorDLNoSame" xml:space="preserve">
+    <value>पत्त्याचा पुराव्यासाठी  आणि ओळख पुराव्यासाठी प्रविष्ट  केलेला वाहनचालक परवाना क्रमांक समान असणे आवश्यक आहे.</value>
+  </data>
+  <data name="ErrorHeader" xml:space="preserve">
+    <value>कृपया खालील फील्डमध्ये माहिती प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorMinorAge" xml:space="preserve">
+    <value>कृपया अर्जदाराचे वय 18 वर्षांपेक्षा जास्त असावे.</value>
+  </data>
+  <data name="ErrorMoreAge" xml:space="preserve">
+    <value>कृपया अर्जदाराचे वय 125 वर्षांपेक्षा जास्त नसावे.</value>
+  </data>
+  <data name="ErrorOtherSame" xml:space="preserve">
+    <value>इतर श्रेणीमध्ये  ओळखीचा पुराव्यासाठी आणि पत्त्याचा पुराव्यासाठी  प्रविष्ट  केलेला क्रमांक समान असणे आवश्यक आहे.</value>
+  </data>
+  <data name="ErrorTxtAccountNumber" xml:space="preserve">
+    <value>कृपया खाते क्रमांक प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorTxtAddProofAadharNo" xml:space="preserve">
+    <value>कृपया पत्त्याच्या पुराव्यासाठी वैध आधार क्रमांक प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorTxtAddproofDLN" xml:space="preserve">
+    <value>कृपया पत्त्याच्या पुरावा क्रमांकासाठी वैध वाहतूक परवाना क्रमांक प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorTxtAddproofVoterNo" xml:space="preserve">
+    <value>कृपया पत्त्याच्या पुराव्यासाठी वैध मतदान ओळखपत्र क्रमांक प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorTxtAge" xml:space="preserve">
+    <value>कृपया वय प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorTxtApplicantName1" xml:space="preserve">
+    <value>कृपया १.अर्जदार नाव प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorTxtBankAddress" xml:space="preserve">
+    <value>कृपया बँकेचा पत्ता प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorTxtBusinessAddress" xml:space="preserve">
+    <value>कृपया व्यवसाय पत्ता प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorTxtCaptcha" xml:space="preserve">
+    <value>कृपया सांकेतिक क्रमांक प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorTxtDOB" xml:space="preserve">
+    <value>कृपया जन्मतारीख प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorTxtEmail" xml:space="preserve">
+    <value>कृपया ईमेल प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorTxtExistingBankName" xml:space="preserve">
+    <value>कृपया बँक आणि शाखेचे नाव प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorTxtExistingLoanAmount" xml:space="preserve">
+    <value>कृपया घेतलेल्या कर्जाची रक्कम प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorTxtFatherName" xml:space="preserve">
+    <value>कृपया वडिलांचे / पतीचे  नाव प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorTxtIDProofAadharNo" xml:space="preserve">
+    <value>कृपया ओळख पुराव्यासाठी  वैध आधार क्रमांक प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorTxtIDproofDLN" xml:space="preserve">
+    <value>कृपया आयडी पुरावा क्रमांकासाठी वैध ड्रायव्हिंग परवाना क्रमांक प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorTxtIDproofVoterNo" xml:space="preserve">
+    <value>कृपया ओळख पुराव्यासाठी वैध मतदान ओळखपत्र क्रमांक प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorTxtIFSC" xml:space="preserve">
+    <value>कृपया आयएफएससी कोड प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorTxtLoanKishore" xml:space="preserve">
+    <value>कृपया किशोर प्रकारच्या कर्जाची रक्कम ५०००० पेक्षा अधिक आणि 5 लाखांपेक्षा कमी असावी.</value>
+  </data>
+  <data name="ErrorTxtLoanShishu" xml:space="preserve">
+    <value>कृपया शिशु प्रकारच्या कर्जाची रक्कम ५०००० पेक्षा कमी किंवा समान असली पाहिजे.</value>
+  </data>
+  <data name="ErrorTxtLoanTarun" xml:space="preserve">
+    <value>कृपया तरुण प्रकाराच्या कर्जाची रक्कम 5 लाखांहून अधिक आणि 10 लाखांपेक्षा कमी किंवा समान असावी.</value>
+  </data>
+  <data name="ErrorTxtMobile" xml:space="preserve">
+    <value>कृपया भ्रमणध्वनी क्रमांक प्रविष्ट  करा.</value>
+  </data>
+  <data name="ErrortxtNubmer" xml:space="preserve">
+    <value>कृपया कर्जाची रक्कम नमुद करा.</value>
+  </data>
+  <data name="ErrorTxtPeriod" xml:space="preserve">
+    <value>कृपया कालावधी प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorTxtResidentialAdd" xml:space="preserve">
+    <value>कृपया निवासी पत्ता प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorTxtSalesExisting" xml:space="preserve">
+    <value>कृपया विद्यमान व्यवसायासाठी वार्षिक विक्री प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorTxtSalesProposed" xml:space="preserve">
+    <value>कृपया प्रस्तावित व्यवसायासाठी वार्षिक विक्री प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorTxtTelephone" xml:space="preserve">
+    <value>कृपया वैध दूरध्वनी क्रमांक प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorValidAccount" xml:space="preserve">
+    <value>कृपया वैध खाते क्रमांक प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorValidCaptcha" xml:space="preserve">
+    <value>कृपया वैध सांकेतिक क्रमांक प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorValidEmail" xml:space="preserve">
+    <value>कृपया वैध ईमेल आयडी प्रविष्ट करा.</value>
+  </data>
+  <data name="ErrorValidMobile" xml:space="preserve">
+    <value>कृपया वैध १० अंकी मोबाइल नंबर प्रविष्ट करा. मोबाइल नंबर ७ किंवा ८ किंवा ९ ने प्रारंभ केला पाहिजे.</value>
+  </data>
+  <data name="ErrorVoterNoSame" xml:space="preserve">
+    <value>पत्त्याचा पुराव्यासाठी  आणि ओळख पुराव्यासाठी प्रविष्ट  केलेला मतदान क्रमांक समान असणे आवश्यक आहे.</value>
+  </data>
+  <data name="lblAccountLoanType" xml:space="preserve">
+    <value>कर्ज खाते प्रकार</value>
+  </data>
+  <data name="lblAccountNumber" xml:space="preserve">
+    <value>खाते क्रमांक</value>
+  </data>
+  <data name="lblAddproof" xml:space="preserve">
+    <value>पत्त्याचा पुरावा</value>
+  </data>
+  <data name="lblAdharNo" xml:space="preserve">
+    <value>आधार क्र.</value>
+  </data>
+  <data name="lblAge" xml:space="preserve">
+    <value>वय</value>
+  </data>
+  <data name="lblAmount" xml:space="preserve">
+    <value>रक्कम</value>
+  </data>
+  <data name="lblAnyother" xml:space="preserve">
+    <value>इतर</value>
+  </data>
+  <data name="lblApplicantName" xml:space="preserve">
+    <value>३. अर्जदाराचा तपशील</value>
+  </data>
+  <data name="lblApplicationHeading" xml:space="preserve">
+    <value>१. कर्जाचा तपशील</value>
+  </data>
+  <data name="lblAppName1" xml:space="preserve">
+    <value>१. अर्जदाराचे नाव</value>
+  </data>
+  <data name="lblAppName2" xml:space="preserve">
+    <value>२. अर्जदाराचे नाव</value>
+  </data>
+  <data name="lblBankAdd" xml:space="preserve">
+    <value>बँकेचा पत्ता</value>
+  </data>
+  <data name="lblBankDetails" xml:space="preserve">
+    <value>२. बँकेचा तपशील</value>
+  </data>
+  <data name="lblBankIFSC" xml:space="preserve">
+    <value>बँकेचा आय एफ एस सी कोड</value>
+  </data>
+  <data name="lblBankName" xml:space="preserve">
+    <value>बँकेचे नाव</value>
+  </data>
+  <data name="lblBranch" xml:space="preserve">
+    <value>शाखेचे नाव</value>
+  </data>
+  <data name="lblBusiness" xml:space="preserve">
+    <value>५. व्यवसायाचा तपशील</value>
+  </data>
+  <data name="lblBusinessActivity" xml:space="preserve">
+    <value>व्यवसायाचे नाव</value>
+  </data>
+  <data name="lblBusinessAddress" xml:space="preserve">
+    <value>व्यवसायाचा पत्ता</value>
+  </data>
+  <data name="lblBusinessAddType" xml:space="preserve">
+    <value>पत्त्याचा प्रकार</value>
+  </data>
+  <data name="Lblcaptcha" xml:space="preserve">
+    <value>पडताळणी संकेतांक कोड</value>
+  </data>
+  <data name="lblConstitution" xml:space="preserve">
+    <value>संविधान</value>
+  </data>
+  <data name="LblDescription" xml:space="preserve">
+    <value>वर्णन</value>
+  </data>
+  <data name="lblDistrict" xml:space="preserve">
+    <value>जिल्हा</value>
+  </data>
+  <data name="lblDLNo" xml:space="preserve">
+    <value>वाहन परवाना क्र.</value>
+  </data>
+  <data name="lblDOB" xml:space="preserve">
+    <value>जन्म दिनांक</value>
+  </data>
+  <data name="lblEmail" xml:space="preserve">
+    <value>ई-मेल</value>
+  </data>
+  <data name="lblEmailId" xml:space="preserve">
+    <value>ई - मेल आयडी</value>
+  </data>
+  <data name="LblExistingAcc" xml:space="preserve">
+    <value>विद्यमान खात्याचा तपशील, जर असेल तर</value>
+  </data>
+  <data name="lblExistingAccType" xml:space="preserve">
+    <value>खाते प्रकार</value>
+  </data>
+  <data name="LblExistingBank" xml:space="preserve">
+    <value>बँकेचे नाव व शाखा</value>
+  </data>
+  <data name="LblExistingLoanAmount" xml:space="preserve">
+    <value>कर्ज खाते असल्यास, कर्जाची रक्कम नमूद करा</value>
+  </data>
+  <data name="lblExperience" xml:space="preserve">
+    <value>अनुभव असल्यास</value>
+  </data>
+  <data name="lblFather" xml:space="preserve">
+    <value>वडिलांचे / पतीचे नाव</value>
+  </data>
+  <data name="lblIDproof" xml:space="preserve">
+    <value>ओळखपत्र पुरावा</value>
+  </data>
+  <data name="lblKYC" xml:space="preserve">
+    <value>केवायसी दस्तऐवज</value>
+  </data>
+  <data name="lblKycHeading" xml:space="preserve">
+    <value>४. केवायसी दस्तऐवज</value>
+  </data>
+  <data name="lblLineofBusiness" xml:space="preserve">
+    <value>व्यवसाय हेतू (उद्देश)</value>
+  </data>
+  <data name="LblLoan" xml:space="preserve">
+    <value>६. कर्जाचा तपशील</value>
+  </data>
+  <data name="lblLoanType" xml:space="preserve">
+    <value>मुद्रा कर्ज प्रकार</value>
+  </data>
+  <data name="lblminority" xml:space="preserve">
+    <value>अल्पसंख्यांक असल्यास</value>
+  </data>
+  <data name="lblMobile" xml:space="preserve">
+    <value>भ्रमणध्वनी क्रमांक</value>
+  </data>
+  <data name="lblMobileNumber" xml:space="preserve">
+    <value>भ्रमणध्वनी क्रमांक </value>
+  </data>
+  <data name="lblName" xml:space="preserve">
+    <value>नाव</value>
+  </data>
+  <data name="lblperiod" xml:space="preserve">
+    <value>कालावधी</value>
+  </data>
+  <data name="lblQualification" xml:space="preserve">
+    <value>शैक्षणिक पात्रता</value>
+  </data>
+  <data name="lblResidentialAddress" xml:space="preserve">
+    <value>निवासी पत्ता</value>
+  </data>
+  <data name="lblResidenttype" xml:space="preserve">
+    <value>पत्त्याचा प्रकार</value>
+  </data>
+  <data name="lblSalesExisting" xml:space="preserve">
+    <value>वार्षिक विक्री (रु. लाखात)</value>
+  </data>
+  <data name="lblSalesProposed" xml:space="preserve">
+    <value>प्रस्तावित  वार्षिक  विक्री (रु. लाखात)</value>
+  </data>
+  <data name="lblsex" xml:space="preserve">
+    <value>लिंग</value>
+  </data>
+  <data name="lblSocialCategory" xml:space="preserve">
+    <value>समाजीक प्रवर्ग</value>
+  </data>
+  <data name="lblTaluka" xml:space="preserve">
+    <value>तालुका</value>
+  </data>
+  <data name="lblTelephone" xml:space="preserve">
+    <value>दूरध्वनी क्रमांक</value>
+  </data>
+  <data name="lblVoterId" xml:space="preserve">
+    <value>निवडणूक ओळखपत्र क्र.</value>
+  </data>
+  <data name="lblcaptchaText" xml:space="preserve">
+    <value>७. पडताळणी संकेतांक कोड</value>
+  </data>
+  <data name="lblNote" xml:space="preserve">
+    <value> संवेदनशील (उदा. A-a)</value>
+  </data>
+  <data name="LblDponame" xml:space="preserve">
+    <value>डी.पी.ओ. नाव</value>
+  </data>
+  <data name="LblOfficeAddress" xml:space="preserve">
+    <value>कार्यालयाचा पत्ता</value>
+  </data>
+  <data name="LblSrno" xml:space="preserve">
+    <value>अ.क्र.</value>
+  </data>
+</root>

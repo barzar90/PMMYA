@@ -1,0 +1,201 @@
+<ul id="nav">
+  <li>
+    <a href="#">About Us</a>
+    <ul>
+      <li>
+        <a href="ApplicationRootPath/Site/Home/goalVisionObjectives.aspx?MenuID=1013">Goals, Vision and Objectives</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/PublicApp/Utility/ViewKeyPersons.aspx?MenuID=1002">Key Person</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Home/organogram.aspx?MenuID=1015">Organogram</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/PublicApp/Utility/ViewPartners.aspx?MenuID=1014">Partners</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="#">Branches</a>
+    <ul>
+      <li>
+        <a href="ApplicationRootPath/Site/Home/CMS.aspx?MenuID=1004">Accounts</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Home/CMS.aspx?MenuID=1005">Admin</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Home/CMS.aspx?MenuID=1006">IEC</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Home/CMS.aspx?MenuID=1007">HRD</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Home/CMS.aspx?MenuID=1008">M and E</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Home/CMS.aspx?MenuID=1009">R and D</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Home/CMS.aspx?MenuID=1010">Sanitation</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Home/CMS.aspx?MenuID=1011">Water Supply</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Home/CMS.aspx?MenuID=1012">Water Quality</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="#">NRDWP</a>
+    <ul>
+      <li>
+        <a href="ApplicationRootPath/Site/Common/NRDWP.aspx?MenuID=1022">NRDWP</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Common/NRDWP_Coverage.aspx?MenuID=1023">Coverage</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Common/NRDWP_OM.aspx?MenuID=1024">O and M</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Common/NRDWP_Support.aspx?MenuID=1025">Support</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Common/NRDWP_Sustainability.aspx?MenuID=1026">Sustainability</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Common/NRDWP_WaterQuality.aspx?MenuID=1027">Water Quality</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="#">NBA</a>
+    <ul>
+      <li>
+        <a href="http://tsc.gov.in/NBA/NBAHome.aspx?MenuID=1028">NBA</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Common/NBAStartUpActivities.aspx?MenuID=1029">Start Up Activities</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Common/NBA_IECActivities.aspx?MenuID=1030">IEC Activities</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Common/NBACapacityBuilding.aspx?MenuID=1031">Capacity Building</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Common/NBAIHHL.aspx?MenuID=1032">IHHL</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Common/NBA_Sanitary_Marts.aspx?MenuID=1033">RSM and PC</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Common/NBA_CSC_IT.aspx?MenuID=1034">CSC and Institutional Toilets</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Common/NBA_SLWM.aspx?MenuID=1035">SLWM</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Common/NBA_Funding.aspx?MenuID=1036">Funding</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="#">NGP</a>
+    <ul>
+      <li>
+        <a href="http://nirmalgrampuraskar.nic.in/?MenuID=1037">NGP</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Common/NGP_Objectives.aspx?MenuID=1038">Objectives</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Common/NGPEligibilityCriteria.aspx?MenuID=1039">Eligibility Criteria</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Common/NGP_IncentiveAmountPattern.aspx?MenuID=1040">Incentive Amount Pattern</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Common/NGP_ApplicationProcedure.aspx?MenuID=1041">Application Procedure</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Common/NBP_ProcedureForPayment.aspx?MenuID=1042">Procedure for Payment</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Site/Common/NGP_UsageIncentiveAmount.aspx?MenuID=1043">Usage of the Incentives</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="#">Jalswarajya</a>
+    <ul>
+      <li>
+        <a href="http://www.mahawssd.gov.in/dataentry/home.asp?MenuID=1044">Jalswarajya</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="#">E-Library</a>
+    <ul>
+      <li>
+        <a href="ApplicationRootPath/PublicApp/Utility/ViewGR.aspx?MenuID=1045">GRs</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/PublicApp/Utility/ViewNewsLetters.aspx?MenuID=1048">News Letters</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/PublicApp/Utility/ViewCR.aspx?MenuID=1053">CRs</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/PublicApp/Utility/ViewWaterAndSanitation.aspx?MenuID=1049">Water and Sanitation</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/PublicApp/Utility/ViewReports.aspx?MenuID=1050">Reports</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/PublicApp/Utility/ViewGeneralPublications.aspx?MenuID=1051">General Publications</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/PublicApp/Utility/ViewRecruitments.aspx?MenuID=1052">Recruitments</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/PublicApp/Utility/ViewFormats.aspx?MenuID=1054">Format</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/PublicApp/Utility/ViewTenders.aspx?MenuID=1055">Tenders</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/PublicApp/Utility/ViewGuidelines.aspx?MenuID=1056">Guidelines</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/PublicApp/Utility/ViewAIP.aspx?MenuID=1057">AIP</a>
+      </li>
+      <li>
+        <a href="../../PublicApp/Utility/ViewIssuedLetters.aspx?MenuID=1061">Issued Letters</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="#">Useful Links</a>
+    <ul>
+      <li>
+        <a href="ApplicationRootPath/App/Utility/FileSystem.aspx?MenuID=1046">Other Links</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/PublicApp/Utility/Feedback.aspx?MenuID=1047">Feedback</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Admin/MenuManagement/CreateMenu.aspx?MenuID=1058">Create Menu</a>
+      </li>
+      <li>
+        <a href="ApplicationRootPath/Admin/MenuManagement/MenuList.aspx?MenuID=1059">Menu List</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="ApplicationRootPath/Site/Home/CMS.aspx?MenuID=1060">Abc</a>
+  </li>
+</ul>

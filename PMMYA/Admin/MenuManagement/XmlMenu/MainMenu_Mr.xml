@@ -1,0 +1,68 @@
+<ul class="nav navbar-nav">
+  <li>
+    <a href="~/Site/Home/Index.aspx">मुख्य पृष्ठ</a>
+  </li>
+  <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">आमच्याविषयी <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+      <li>
+        <a href="~/1009/Vision,-Mission-and-Purpose">मुद्रा-दृष्टी, मुद्रा-मिशन आणि मुद्रा-उद्देश</a>
+      </li>
+      <li>
+        <a href="~/1010/Genesis-and-Role-of-Mudra">मुद्राची उत्पत्ती,भूमिका आणि जबाबदाऱ्या </a>
+      </li>
+      <li>
+        <a href="~/1020/Committee">समिती</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">मुद्रातील योजना<span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+      <li>
+        <a href="~/1021/Offerings">मुद्रातील योजना</a>
+      </li>
+      <li>
+        <a href="~/1023/Search-your-Financer">आपली बँक शोधा</a>
+      </li>
+      <li>
+        <a href="~/1024/Success-Stories">यशोगाथा</a>
+      </li>
+      <li>
+        <a href="~/1025/Useful-Links">उपयुक्त दुवे</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#"> गॅलरी<span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+      <li>
+        <a href="~/1011/Motivational">प्रेरणादायी</a>
+      </li>
+      <li>
+        <a href="~/1012/Success-Stories-Video">यशोगाथा</a>
+      </li>
+      <li>
+        <a href="~/1013/Photos">छायाचित्र</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a target="_blank" title="External Website that opens in a new window" href="~/Site/Upload/Pdf/Maharashtra_Mudra.pdf">यशोमुद्रा</a>
+  </li>
+  <li>
+    <a href="~/1030/How-to-apply">अर्ज कसा करावा</a>
+  </li>
+  <li>
+    <a href="~/Site/Home/FrmPMMYLoanForm.aspx">अर्जाचे स्वरूप</a>
+  </li>
+  <li>
+    <a href="~/1004/FAQ">नेहमीचे प्रश्न</a>
+  </li>
+  <li>
+    <a href="~/1008/Complaint">तक्रार</a>
+  </li>
+  <li>
+    <a href="~/1006/Contact-Us">संपर्क</a>
+  </li>
+</ul>

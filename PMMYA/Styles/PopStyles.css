@@ -1,0 +1,62 @@
+﻿.modal-overlay 
+	{ 
+	position:fixed; 
+	top:0; 
+	right:0; 
+	bottom:0; 
+	left:0; 
+	height:100%; 
+	width:100%; 
+	margin:0; 
+	padding:0; 
+	background:black; 
+	opacity:.65;  
+	-moz-opacity: .65; 
+	border-width:1px; 
+	
+	z-index:101; 
+	} 
+	.modal-window 
+	{ 
+	position:fixed; 
+	top:50%; 
+	left:50%; 
+	
+	border-style:solid; 
+	border-bottom-color:#aaa; 
+	border-right-color:#aaa; 
+	border-top-color:#ddd; 
+	border-left-color:#ddd; 
+	border-radius:3px; 
+	-moz-border-radius:3px; 
+	-webkit-border-radius:3px; 
+	background:white; 
+	
+	opacity:1; 
+	-moz-opacity: 1; 
+	
+	z-index:102; 
+	} 
+	.close-window 
+	{ 
+	position:absolute; 
+	width:16px; 
+	height:16px; 
+	right:2px; 
+	top:3px; 
+	background:transparent url('/Images/popupclose.jpg') no-repeat scroll right top; 
+	text-indent:-99999px; 
+	overflow:hidden; 
+	cursor:pointer; 
+	opacity:.5;  
+	-moz-opacity: 0.5; 
+	z-index:103; 
+	} 
+	.close-window:hover 
+	{ 
+	opacity:.99; 
+	-moz-opacity: 0.99; 
+	} 
+
+
+

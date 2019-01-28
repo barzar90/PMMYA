@@ -1,0 +1,89 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="PMMYA.Masters.WebSiteMasters.MasterPage" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head id="Head1" runat="server">
+    <title>
+        <asp:Literal ID="lbldepName" runat="server" /></title>
+    <link href="../Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/nivoSlider.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/vscroller.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/jquery.js" type="text/javascript"></script>
+    <script src="../Scripts/jquery.min.js" type="text/javascript"></script>
+    <script src="../Scripts/coin-slider.js" type="text/javascript"></script>
+    <script src="../Scripts/coin-slider.min.js" type="text/javascript"></script>
+    <link href="../Styles/coin-slider-styles.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/jquery-treeview.js" type="text/javascript"></script>
+    <script src="../Scripts/ddsmoothmenu.js" type="text/javascript"></script>
+    <link href="../Styles/ddsmoothmenu.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/superfish.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/superfish-vertical.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/superfish.js" type="text/javascript"></script>
+    <script src="../Scripts/hoverIntent.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(function () {
+            jQuery('ul.sf-menu').superfish();
+        });
+
+    </script>
+    <script src="../Scripts/jquery-ui-1.8.10.custom.min.js" type="text/javascript"></script>
+    <link href="../Styles/jquery-ui-1.8.10.custom.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/colorbox.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/jquery.colorbox.js" type="text/javascript"></script>
+    <script language="javascript" type="text/javascript">
+        $(document).ready(function () {
+
+
+            $(".example6").colorbox({ iframe: true, innerWidth: 425, innerHeight: 344 });
+
+        });
+    </script>
+    <script src="../Scripts/visuallightbox.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../Styles/vlightbox1.css" type="text/css" />
+    <link rel="stylesheet" href="../Styles/visuallightbox.css" type="text/css" media="screen" />
+    <link rel="Stylesheet" href="../Styles/cssUpdateProgress.css" type="text/css" media="screen" />
+    <link href="../Styles/digg-pagination.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .modalBackground
+        {
+            background-color: Gray;
+            filter: alpha(opacity=50);
+            opacity: 0.50;
+        }
+        
+        .updateProgress
+        {
+            border-width: 1px;
+            border-style: solid;
+            background-color: #FFFFFF;
+            position: absolute;
+            width: 180px;
+            height: 65px;
+        }
+    </style>
+    <script src="../Scripts/scrolltopcontrol.js" type="text/javascript"></script>
+    <script src="../Scripts/fontresizer.js" type="text/javascript"></script>
+    <%-- Improper Cache control --%>
+    <meta http-equiv="cache-control" content="no-cache, no store" />
+    <meta http-equiv="cache-control" content="private" />
+    <meta http-equiv="cache-control" content="must-revalidate" />
+    <meta http-equiv="cache-control" content="post-check=0" />
+    <meta http-equiv="cache-control" content="pre-check=0" />
+    <meta http-equiv="pragma" content="no-cache" />
+
+    <asp:ContentPlaceHolder ID="pageTitle" runat="server">
+                                            
+                 
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                            </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+﻿* { margin:0; padding:0; text-decoration:none; border:0;}
+.body{ background:#fff;}
+body { font-family: 'Lohit Marathi', Sakal Marathi, Mangal, Arial Unicode MS, Arial;  font-size: 0.9em; line-height: 18px; background:#fff}
+#headerP { margin:0 auto 5px; width:980px; border-bottom:8px solid #333; padding:0 0 10px; height:65px;}
+#lbl_headTitle span{font-size: 0.8em !important;font-weight: normal !important;padding: 0 !important}
+#headerP .maha{ float:left; padding:10px 15px 0 15px}
+#headerP .india {float:right; padding:10px 15px 0 10px}
+#headerP span {font-size: 1.6em; line-height: 24px; float: left; padding:15px 5px; font-weight:bold;}
+#sectionP {margin: 12px auto 0; width: 948px;background: #fff;padding: 15px; border:1px solid #b5b5b5}
+#footerP { margin:0 auto; width:980px; padding-top:10px;}
+#footerP p { float:left; width:700px; padding-left:10px; font-size:0.9em;}
+.mahaonline { float:right; margin:0 10px;}
+
+h1 { font-size:1.5em; color:#000000;}
+h2 { font-size:1.2em; color:#000000;}
+
+.brd-left {border-left: 1px solid #E2E2E2; min-height: 440px}
+.col-lg-3{width: 25%;float:left}
+.col-lg-9{width: 72%;float:left}
+.qlinks h2 {color: #000000}
+.headingBg {border-bottom: 1px solid #C2C2C2;padding: 8px 0}
+.qlinks li, ul li{list-style-type:square}
+.qlinks li:before, .ul li:before{display:none}
+
+
+
+

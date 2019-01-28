@@ -1,0 +1,73 @@
+.file-upload {
+    /*background: none repeat scroll 0 0 #C6C6C6;
+    border: 2px solid #A1A3A4;
+    border-radius: 8px 8px 8px 8px;*/
+    color: #FFFFFF;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    text-shadow: 1px 1px 4px #000000;
+    vertical-align: middle;
+}
+.file-upload:hover {
+    background: none repeat scroll 0 0 #FCFCFC; cursor:pointer;
+}
+.file-upload .focus {
+    outline: 2px solid #999999;
+}
+.file-upload input {
+    font-size: 70px;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+}
+.file-upload strong {
+    font: 1em arial,sans-serif;
+}
+.file-upload span {
+    display: inline-block;
+    left: 0;
+    padding-top: 0.30em;
+    position: absolute;
+    bottom: 0;
+    padding-bottom:2px;
+    background-color:#43a701;
+    border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+    height:30px;
+}
+.file-upload {
+    height: 2.75em;
+    margin: 0px 0 0 102px;
+    /* background-color:#30648B; */
+    border-radius: 5px;
+-webkit-border-radius: 5px;
+
+    /* padding: 4px; */
+    -moz-border-radius: 5px;
+}
+.file-upload, .file-upload span {
+    width: 6em;
+}
+.file-upload, .file-upload span {
+    width: 6em;
+}
+.file-upload span{border:1px solid #c1c1c1;}
+.file-upload-status {
+    background: none repeat scroll 0 0 #43a701;
+    border: 3px solid #DDDDDD;
+    color: #888888;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 7px 11px;
+    vertical-align: middle;
+    display:none !important;
+}
+
+.CaptureWrap{border:1px solid #C4C4c4; display:block;width:auto;height:auto}
+.ImgUpload{margin-left:-27px;}
